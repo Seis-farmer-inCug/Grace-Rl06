@@ -68,3 +68,5 @@ for i=1:size(theta,1) % loop over all thetas
 showGrid(lambda, theta, tws9, 'b')
 end
 ~~~
+### Figure
+
