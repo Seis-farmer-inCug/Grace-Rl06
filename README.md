@@ -6,6 +6,12 @@ This function can be used to return the average 90x90 spherical harmonic coeffic
 *Inuput:*  
 filename：the name of Grace file.   
 *Output:*  
-cnm,snm:Spherical harmonic coefficient  
-GM,R:Radiul of the earth  
-**wn = filterCoefficientsGaussian(radius, maxDegree)**
+cnm,snm: Spherical harmonic coefficient  
+GM,R: Radiul of the earth  
+**wn = filterCoefficientsGaussian(radius, maxDegree)**  
+*Input:*  
+radius: half-with radius parameter in km.
+maxDegree: maximum degree to compute.
+*Output:*  
+wn: (n + 1) x 1 vector with n = maxDegree.
+
