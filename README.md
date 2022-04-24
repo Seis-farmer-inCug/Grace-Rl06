@@ -69,4 +69,4 @@ showGrid(lambda, theta, tws9, 'b')
 end
 ~~~
 ### Figure
-
+![image](Fanyan.png)
