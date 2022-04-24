@@ -43,6 +43,7 @@ for n=0:1:l
   dcnm(n+1,:) = wn(n+1) * dcnm(n+1,:); % filter all orders of one degree
   dsnm(n+1,:) = wn(n+1) * dsnm(n+1,:);
 end
+%choose the area where you need
 lambda = pi/180 * [-180:0.1:180]';
 theta  = pi/180 * [180:-0.1:0]';
 
